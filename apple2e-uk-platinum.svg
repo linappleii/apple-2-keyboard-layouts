@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1780" height="600" viewBox="0 0 1780 600" version="1.1">
+  <style>
+    .key-text {
+      font-family: "Helvetica", Arial, sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      fill: #d1cfcd;
+      text-anchor: start;
+      dominant-baseline: text-top;
+    }
+
+    .key-text-small {
+      font-family: "Helvetica", Arial, sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      fill: #d1cfcd;
+      text-anchor: start;
+      dominant-baseline: text-top;
+    }
+
+    .key-body { fill: #332d29; }
+    .key-top { fill: #3d3631; }
+    .key-side-l { fill: #2b2622; }
+    .key-side-r { fill: #2b2622; }
+    .key-side-t { fill: #453d37; }
+    .key-side-b { fill: #1e1a18; }
+
+    #reset {
+      text-anchor: middle;
+      dominant-baseline: middle;
+      font-size: 16px;
+    }
+
+    #tab {
+      font-size: 25px;
+    }
+
+    #return {
+      font-size: 20px;
+    }
+
+    .caps-lock, .shift {
+      font-size: 30px
+    }
+
+    .apple-icon { fill: #444; }
+  </style>
+
+  <defs>
+    <linearGradient id="case-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4c9b3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b0a590;stop-opacity:1" />
+    </linearGradient>
+
+    <symbol id="key-1u" overflow="visible">
+      <rect x="2" y="4" width="96" height="94" rx="6" />
+      <rect class="key-body" x="2" y="2" width="96" height="92" rx="6" />
+      <path class="key-side-l" d="M 2 8 L 18 18 L 18 82 L 2 92 Z" />
+      <path class="key-side-r" d="M 98 8 L 82 18 L 82 82 L 98 92 Z" />
+      <path class="key-side-t" d="M 8 2 L 18 18 L 82 18 L 92 2 Z" />
+      <path class="key-side-b" d="M 8 94 L 18 82 L 82 82 L 92 94 Z" />
+      <rect class="key-top" x="18" y="18" width="64" height="64" rx="4" />
+    </symbol>
+
+    <symbol id="key-1.25u" overflow="visible">
+      <rect x="2" y="4" width="121" height="94" rx="6" />
+      <rect class="key-body" x="2" y="2" width="121" height="92" rx="6" />
+      <path class="key-side-l" d="M 2 8 L 18 18 L 18 82 L 2 92 Z" />
+      <path class="key-side-r" d="M 123 8 L 107 18 L 107 82 L 123 92 Z" />
+      <path class="key-side-t" d="M 8 2 L 18 18 L 107 18 L 117 2 Z" />
+      <path class="key-side-b" d="M 8 94 L 18 82 L 107 82 L 117 94 Z" />
+      <rect class="key-top" x="18" y="18" width="89" height="64" rx="4" />
+    </symbol>
+
+    <symbol id="key-1.5u" overflow="visible">
+      <rect x="2" y="4" width="146" height="94" rx="6" />
+      <rect class="key-body" x="2" y="2" width="146" height="92" rx="6" />
+      <path class="key-side-l" d="M 2 8 L 18 18 L 18 82 L 2 92 Z" />
+      <path class="key-side-r" d="M 148 8 L 132 18 L 132 82 L 148 92 Z" />
+      <path class="key-side-t" d="M 8 2 L 18 18 L 132 18 L 142 2 Z" />
+      <path class="key-side-b" d="M 8 94 L 18 82 L 132 82 L 142 94 Z" />
+      <rect class="key-top" x="18" y="18" width="114" height="64" rx="4" />
+    </symbol>
+
+    <symbol id="key-1.75u" overflow="visible">
+      <rect x="2" y="4" width="171" height="94" rx="6" />
+      <rect class="key-body" x="2" y="2" width="171" height="92" rx="6" />
+      <path class="key-side-l" d="M 2 8 L 18 18 L 18 82 L 2 92 Z" />
+      <path class="key-side-r" d="M 173 8 L 157 18 L 157 82 L 173 92 Z" />
+      <path class="key-side-t" d="M 8 2 L 18 18 L 157 18 L 167 2 Z" />
+      <path class="key-side-b" d="M 8 94 L 18 82 L 157 82 L 167 94 Z" />
+      <rect class="key-top" x="18" y="18" width="139" height="64" rx="4" />
+    </symbol>
+
+    <symbol id="key-2u" overflow="visible">
+      <rect x="2" y="4" width="196" height="94" rx="6" fill="#151311" />
+      <rect class="key-body" x="2" y="2" width="196" height="92" rx="6" />
+      <path class="key-side-l" d="M 2 8 L 18 18 L 18 82 L 2 92 Z" />
+      <path class="key-side-r" d="M 198 8 L 182 18 L 182 82 L 198 92 Z" />
+      <path class="key-side-t" d="M 8 2 L 18 18 L 182 18 L 192 2 Z" />
+      <path class="key-side-b" d="M 8 94 L 18 82 L 182 82 L 192 94 Z" />
+      <rect class="key-top" x="18" y="18" width="164" height="64" rx="4" />
+    </symbol>
+
+    <symbol id="key-2.25u" overflow="visible">
+      <rect x="2" y="4" width="226" height="94" rx="6" />
+      <rect class="key-body" x="2" y="2" width="226" height="92" rx="6" />
+      <path class="key-side-l" d="M 2 8 L 18 18 L 18 82 L 2 92 Z" />
+      <path class="key-side-r" d="M 228 8 L 212 18 L 212 82 L 228 92 Z" />
+      <path class="key-side-t" d="M 8 2 L 18 18 L 212 18 L 222 2 Z" />
+      <path class="key-side-b" d="M 8 94 L 18 82 L 212 82 L 222 94 Z" />
+      <rect class="key-top" x="18" y="18" width="194" height="64" rx="4" />
+    </symbol>
+
+    <symbol id="key-2.75u" overflow="visible">
+      <rect x="2" y="4" width="281" height="94" rx="6" />
+      <rect class="key-body" x="2" y="2" width="281" height="92" rx="6" />
+      <path class="key-side-l" d="M 2 8 L 18 18 L 18 82 L 2 92 Z" />
+      <path class="key-side-r" d="M 283 8 L 267 18 L 267 82 L 283 92 Z" />
+      <path class="key-side-t" d="M 8 2 L 18 18 L 267 18 L 277 2 Z" />
+      <path class="key-side-b" d="M 8 94 L 18 82 L 267 82 L 277 94 Z" />
+      <rect class="key-top" x="18" y="18" width="249" height="64" rx="4" />
+    </symbol>
+
+    <symbol id="key-space-5.5u" overflow="visible">
+      <rect x="2" y="4" width="586" height="94" rx="6" />
+      <rect class="key-body" x="2" y="2" width="586" height="92" rx="6" />
+      <path class="key-side-l" d="M 2 8 L 18 18 L 18 82 L 2 92 Z" />
+      <path class="key-side-r" d="M 588 8 L 572 18 L 572 82 L 588 92 Z" />
+      <path class="key-side-t" d="M 8 2 L 18 18 L 572 18 L 582 2 Z" />
+      <path class="key-side-b" d="M 8 94 L 18 82 L 572 82 L 582 94 Z" />
+      <rect class="key-top" x="18" y="18" width="554" height="64" rx="4" />
+    </symbol>
+
+    <symbol id="key-iso-return" overflow="visible">
+      <path d="M 12 6 L 106 6 L 106 206 L 36 206 L 36 99 L 12 99 Z" />
+      <path class="key-body" d="M 12 2 L 106 2 L 106 202 L 36 202 L 36 95 L 12 95 Z" />
+      <path class="key-side-t" d="M 12 2 L 106 2 L 90 18 L 28 18 Z" />
+      <path class="key-side-r" d="M 106 2 L 106 202 L 90 186 L 90 18 Z" />
+      <path class="key-side-b" d="M 106 202 L 36 202 L 52 186 L 90 186 Z" />
+      <path class="key-side-l" d="M 36 202 L 36 95 L 52 79 L 52 186 Z" />
+      <path class="key-side-b" d="M 36 95 L 12 95 L 28 79 L 52 79 Z" />
+      <path class="key-side-l" d="M 12 95 L 12 2 L 28 18 L 28 79 Z" />
+      <path class="key-top" d="M 28 18 L 90 18 L 90 186 L 52 186 L 52 79 L 28 79 Z" />
+    </symbol>
+
+    <symbol id="icon-apple-open" viewBox="0 0 100 100">
+      <path d="M 50 25 C 55 25 60 23 65 23 C 75 23 80 26 85 28 C 75 35 75 55 85 62 C 80 75 75 85 65 85 C 60 85 55 82 50 82 C 45 82 40 85 35 85 C 25 85 15 70 15 50 C 15 30 25 23 35 23 C 40 23 45 25 50 25 Z M 65 5 C 65 15 55 22 50 22 C 50 12 60 5 65 5 Z" fill="none" stroke="#d1cfcd" stroke-width="4" />
+    </symbol>
+    <symbol id="icon-apple-solid" viewBox="0 0 100 100">
+      <path d="M 50 25 C 55 25 60 23 65 23 C 75 23 80 26 85 28 C 75 35 75 55 85 62 C 80 75 75 85 65 85 C 60 85 55 82 50 82 C 45 82 40 85 35 85 C 25 85 15 70 15 50 C 15 30 25 23 35 23 C 40 23 45 25 50 25 Z M 65 5 C 65 15 55 22 50 22 C 50 12 60 5 65 5 Z" fill="#d1cfcd" />
+    </symbol>
+
+    <symbol id="power-indicator" overflow="visible">
+      <rect x="2" y="2" width="96" height="94" rx="6" fill="#fdf5e6" />
+      <rect x="6" y="6" width="88" height="84" rx="4" fill="#fffaf0" />
+    </symbol>
+  </defs>
+
+  <rect width="1780" height="600" fill="url(#case-grad)" />
+
+  <g transform="translate(40, 40)">
+    <g id="row1">
+      <g transform="translate(0, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text" id="escape">Esc</text></g>
+      <g transform="translate(110, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">!</text><text x="25" y="55" class="key-text">1</text></g>
+      <g transform="translate(220, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">@</text><text x="25" y="55" class="key-text">2</text></g>
+      <g transform="translate(330, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">£</text><text x="25" y="55" class="key-text">3</text></g>
+      <g transform="translate(440, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">$</text><text x="25" y="55" class="key-text">4</text></g>
+      <g transform="translate(550, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">%</text><text x="25" y="55" class="key-text">5</text></g>
+      <g transform="translate(660, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">^</text><text x="25" y="55" class="key-text">6</text></g>
+      <g transform="translate(770, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">&amp;</text><text x="25" y="55" class="key-text">7</text></g>
+      <g transform="translate(880, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">*</text><text x="25" y="55" class="key-text">8</text></g>
+      <g transform="translate(990, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">(</text><text x="25" y="55" class="key-text">9</text></g>
+      <g transform="translate(1100, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">)</text><text x="25" y="55" class="key-text">0</text></g>
+      <g transform="translate(1210, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">_</text><text x="25" y="55" class="key-text">-</text></g>
+      <g transform="translate(1320, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">+</text><text x="25" y="55" class="key-text">=</text></g>
+      <g transform="translate(1430, 0)"><use href="#key-1.5u" /><text x="25" y="25" class="key-text" id="delete">Del</text></g>
+    </g>
+
+    <g id="row2" transform="translate(0, 110)">
+      <g transform="translate(0, 0)"><use href="#key-1.5u" /><text x="25" y="25" class="key-text" id="tab">⇥</text></g>
+      <g transform="translate(160, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">Q</text></g>
+      <g transform="translate(270, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">W</text></g>
+      <g transform="translate(380, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">E</text></g>
+      <g transform="translate(490, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">R</text></g>
+      <g transform="translate(600, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">T</text></g>
+      <g transform="translate(710, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">Y</text></g>
+      <g transform="translate(820, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">U</text></g>
+      <g transform="translate(930, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">I</text></g>
+      <g transform="translate(1040, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">O</text></g>
+      <g transform="translate(1150, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">P</text></g>
+      <g transform="translate(1260, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">{</text><text x="25" y="55" class="key-text">[</text></g>
+      <g transform="translate(1370, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">}</text><text x="25" y="55" class="key-text">]</text></g>
+      <g transform="translate(1470, 0)"><use href="#key-iso-return" /><text x="40" y="25" class="key-text" id="return">⏎</text></g>
+    </g>
+
+    <g id="row3" transform="translate(0, 220)">
+      <g transform="translate(0, 0)"><use href="#key-1.75u" /><text x="25" y="25" class="key-text">Ctrl</text></g>
+      <g transform="translate(185, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">A</text></g>
+      <g transform="translate(295, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">S</text></g>
+      <g transform="translate(405, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">D</text></g>
+      <g transform="translate(515, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">F</text></g>
+      <g transform="translate(625, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">G</text></g>
+      <g transform="translate(735, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">H</text></g>
+      <g transform="translate(845, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">J</text></g>
+      <g transform="translate(955, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">K</text></g>
+      <g transform="translate(1065, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">L</text></g>
+      <g transform="translate(1175, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">:</text><text x="25" y="55" class="key-text">;</text></g>
+      <g transform="translate(1285, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">"</text><text x="25" y="55" class="key-text">'</text></g>
+      <g transform="translate(1395, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">~</text><text x="25" y="55" class="key-text">#</text></g>
+    </g>
+
+    <g id="row4" transform="translate(0, 330)">
+      <g transform="translate(0, 0)"><use href="#key-1.25u" /><text x="25" y="25" class="key-text shift">⇧</text></g>
+      <g transform="translate(135, 0)"><use href="#key-1u" /><text x="25" y="20" class="key-text-small">|</text><text x="25" y="55" class="key-text">\</text></g>
+      <g transform="translate(245, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">Z</text></g>
+      <g transform="translate(355, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">X</text></g>
+      <g transform="translate(465, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">C</text></g>
+      <g transform="translate(575, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">V</text></g>
+      <g transform="translate(685, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">B</text></g>
+      <g transform="translate(795, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">N</text></g>
+      <g transform="translate(905, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">M</text></g>
+      <g transform="translate(1015, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">&lt;</text><text x="25" y="55" class="key-text">,</text></g>
+      <g transform="translate(1125, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">&gt;</text><text x="25" y="55" class="key-text">.</text></g>
+      <g transform="translate(1235, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text-small">?</text><text x="25" y="55" class="key-text">/</text></g>
+      <g transform="translate(1345, 0)"><use href="#key-2.25u" /><text x="25" y="25" class="key-text shift">⇧</text></g>
+    </g>
+
+    <g id="row5" transform="translate(0, 440)">
+      <g transform="translate(0, 0)"><use href="#key-2u" /><text x="25" y="25" class="key-text caps-lock">⇩</text></g>
+      <g transform="translate(215, 0)"><use href="#power-indicator" /></g>
+      <g transform="translate(325, 0)"><use href="#key-1u" /><use href="#icon-apple-open" x="25" y="25" width="20" height="20" /></g>
+      <g transform="translate(435, 0)"><use href="#key-space-5.5u" /></g>
+      <g transform="translate(1035, 0)"><use href="#key-1u" /><use href="#icon-apple-solid" x="25" y="25" width="20" height="20" /></g>
+      <g transform="translate(1145, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">←</text></g>
+      <g transform="translate(1255, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">→</text></g>
+      <g transform="translate(1365, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">↓</text></g>
+      <g transform="translate(1475, 0)"><use href="#key-1u" /><text x="25" y="25" class="key-text">↑</text></g>
+    </g>
+  </g>
+
+  <g transform="translate(1650, 40)">
+    <use href="#key-1u" />
+    <text id="reset" x="48" y="47" class="key-text" style="font-size: 16px;">Reset</text>
+  </g>
+
+</svg>
