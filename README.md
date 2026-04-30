@@ -25,8 +25,8 @@ Files are named using the following hierarchy:
 | Model         | Region | Edition  | Filename                     | Status |
 | :------------ | :----- | :------- | :--------------------------- | :----- |
 | Apple II      | US     | Original | `apple2-us-original.svg`     | ✓      |
-| Apple II Plus | US     | Original | `apple2plus-us-original.svg` |        |
-| Apple II Plus | JP     | J-Plus   | `apple2plus-jp-jplus.svg`    |        |
+| Apple II Plus | US     | Original | `apple2plus-us-original.svg` | ✓      |
+| Apple II Plus | JP     | J-Plus   | `apple2plus-jp-jplus.svg`    | ✓      |
 | Apple IIe     | US     | Original | `apple2e-us-original.svg`    |        |
 | Apple IIe     | US     | Enhanced | `apple2e-us-enhanced.svg`    |        |
 | Apple IIe     | UK     | Original | `apple2e-uk-original.svg`    |        |
